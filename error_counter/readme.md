@@ -2,7 +2,7 @@ Error Counter
 ====================
 
     This script works as a plugin for check_mk. It will count the errors (setted by the errorListKeys variable)
-    found in the log file in the logFileName variable.
+    found in the log file (logFileName variable).
 
 ## Install
 
