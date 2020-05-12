@@ -1,18 +1,16 @@
 # Backup Validator
-
-Esse script valida a execução do backup através da data de modificação do arquivo de log. Se o arquivo de log não foi modificado por mais de 2 dias, o plugin gera um alarme.
+This script validates the backup execution through the last modified date of the log file. If the log file was not modified for 2 or more days, this plugin will generate an alarm.
 
 ## Instalação
 
-1. Inclua o arquivo no diretorio ../usr/lib/check_mk_agent/local/
-2. Dar permissão de execução chmod +x error_catcher_counter.sh
+1. Include the file at the dir ../usr/lib/check_mk_agent/local/
+2. Give execution permission chmod +x backup-validator.sh
 
-
-## Exemplo do retorno
-Se o status estiver OK,
+## Return example
+If status is OK,
 
     All ok with the backup
 
-caso contrário,
+otherwise,
 
     4 days without backup
