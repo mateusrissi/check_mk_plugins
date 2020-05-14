@@ -26,6 +26,8 @@ For example, to monitor the log files named routine_01, tracker_level0 and track
 ```
 
 ## Output example
-   0 backup_fn-routine_01 days_without_backup=0 All ok with the backup
-   0 backup_fn-tracker_level0 days_without_backup=0 All ok with the backup
-   2 backup_fn-tracker_level1 days_without_backup=2 Error with the backup - Backup file is missing for two or more days
+```
+0 backup_fn-routine_01 days_without_backup=0 All ok with the backup
+0 backup_fn-tracker_level0 days_without_backup=0 All ok with the backup
+2 backup_fn-tracker_level1 days_without_backup=2 Error with the backup - Backup file is missing for two or more days
+```
